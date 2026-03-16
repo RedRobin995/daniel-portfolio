@@ -1,16 +1,51 @@
-# React + Vite
+# Daniel Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website built with **React + Vite** and deployed to **GitHub Pages**.
 
-Currently, two official plugins are available:
+## Tech stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React
+- Vite
+- GitHub Actions (build + deploy)
+- GitHub Pages (hosting)
 
-## React Compiler
+## Local development
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Install deps:
 
-## Expanding the ESLint configuration
+```bash
+npm install
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Start dev server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## Deployment (GitHub Pages)
+
+This repo is configured to deploy automatically on pushes to `main` using `.github/workflows/deploy.yml`.
+
+Important settings:
+
+- In GitHub: **Settings → Pages**
+  - **Source**: Deploy from a branch
+  - **Branch**: `gh-pages` / (root)
+- Vite `base` is set to `/daniel-portfolio/` in `vite.config.js` (required for project Pages)
+
+After a successful workflow run, the site will be available at:
+
+- `https://<your-username>.github.io/daniel-portfolio/`
