@@ -13,7 +13,7 @@ function Hero() {
         <p className="hero-role">Front-End Developer</p>
 
         <p>
-          Front-End Developer with 3+ years of experience building dynamic,
+          Front-End Developer with 5 years of experience building dynamic,
           data-driven interfaces using JavaScript and React.
         </p>
 
