@@ -1,9 +1,11 @@
 function About() {
   return (
     <section id="about" className="reveal">
- 
-    <div className="card">
-        <h2>About Me</h2>
+      <div className="card surface-card">
+        <header className="section-header">
+          <span className="section-eyebrow">Introduction</span>
+          <h2 className="section-title">About Me</h2>
+        </header>
 
         <p>
           I'm a front-end developer with over 3 years of experience building
@@ -14,10 +16,8 @@ function About() {
           My work focuses on JavaScript, React, and building dynamic,
           personalized experiences powered by real data.
         </p>
-      
-</div>
-    
-</section>
+      </div>
+    </section>
   )
 }
 

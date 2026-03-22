@@ -3,9 +3,11 @@ import ProjectCard from "./ProjectCard"
 
 function Projects() {
   return (
-   <section id="projects" className="reveal">
-  <div className="card">
-      <h2>Projects</h2>
+    <section id="projects" className="section-block projects-section reveal">
+      <header className="section-header">
+        <span className="section-eyebrow">Selected work</span>
+        <h2 className="section-title">Projects</h2>
+      </header>
 
       <div className="projects-grid reveal">
         {projects.map((project, index) => (
@@ -19,9 +21,7 @@ function Projects() {
           />
         ))}
       </div>
-
-      </div>
-</section>
+    </section>
   )
 }
 

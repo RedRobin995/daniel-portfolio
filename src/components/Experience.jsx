@@ -3,10 +3,12 @@ import ExperienceCard from "./ExperienceCard"
 
 function Experience() {
   return (
-    <section id="experience" className="reveal">
-
-      <div className="card">
-        <h2>Experience</h2>
+    <section id="experience" className="section-block reveal">
+      <div className="card surface-card experience-shell">
+        <header className="section-header">
+          <span className="section-eyebrow">Background</span>
+          <h2 className="section-title">Experience</h2>
+        </header>
 
         <div className="timeline">
           {experience.map((job, index) => (
@@ -19,9 +21,7 @@ function Experience() {
             />
           ))}
         </div>
-
       </div>
-
     </section>
   )
 }

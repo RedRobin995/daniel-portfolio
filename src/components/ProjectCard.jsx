@@ -1,14 +1,18 @@
 function ProjectCard({ title, description, tech, link, image }) {
   return (
-    <div className="card">
-
+    <article className="card project-card surface-card">
       <div className="project-image-wrapper">
         <img src={image} alt={title} className="project-image" />
 
         <div className="project-overlay">
-          <a href={link} target="_blank" className="project-link">
-        View Project
-      </a>
+          <a
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-link"
+          >
+            View Project
+          </a>
         </div>
       </div>
 
@@ -18,12 +22,12 @@ function ProjectCard({ title, description, tech, link, image }) {
 
       <div className="tech-list">
         {tech.map((t, index) => (
-          <span key={index} className="tech-badge">{t}</span>
+          <span key={index} className="tech-badge">
+            {t}
+          </span>
         ))}
       </div>
-
-
-    </div>
+    </article>
   )
 }
 

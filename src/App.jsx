@@ -4,12 +4,11 @@ import Skills from "./components/Skills"
 import Projects from "./components/Projects"
 import Experience from "./components/Experience"
 import Navbar from "./components/Navbar"
+import Footer from "./components/Footer"
 import { useEffect } from "react"
 
 function App() {
-
   useEffect(() => {
-
     const reveals = document.querySelectorAll(".reveal, .projects-grid .card")
 
     const revealOnScroll = () => {
@@ -25,20 +24,16 @@ function App() {
     }
 
     window.addEventListener("scroll", revealOnScroll)
-
     revealOnScroll()
 
     return () => window.removeEventListener("scroll", revealOnScroll)
-
   }, [])
-
 
   return (
     <>
       <Navbar />
 
-      <main className="container">
-
+      <main className="container site-main">
         <Hero />
 
         <div className="info-grid">
@@ -49,8 +44,9 @@ function App() {
         <Projects />
 
         <Experience />
-
       </main>
+
+      <Footer />
     </>
   )
 }
