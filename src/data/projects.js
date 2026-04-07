@@ -1,5 +1,6 @@
 import pokedexImage from "../assets/pokedex-preview.png"
 import mtgImage from "../assets/MTG preview img.png"
+import financeImage from "../assets/Finance App Preview.png"
 
 export const projects = [
   {
@@ -20,5 +21,14 @@ export const projects = [
     image: mtgImage
   },
 
+  {
+    title: "Personal Savings and Expenses Tracker",
+    description:
+      "Android app for tracking personal savings and expenses.",
+    tech: ["React", "HTML", "CSS", "JavaScript"],
+    link: "https://github.com/RedRobin995/finance-app",
+    demo: "https://expo.dev/accounts/redrobin995/projects/finance-app2/builds/1945870e-d5e5-4778-8465-0377294ab9cd",
+    image: financeImage
+  },
 
 ]

@@ -11,12 +11,13 @@ function Projects() {
 
       <div className="projects-grid reveal">
         {projects.map((project, index) => (
-          <ProjectCard
+            <ProjectCard
             key={index}
             title={project.title}
             description={project.description}
             tech={project.tech}
             link={project.link}
+            demo={project.demo}
             image={project.image}
           />
         ))}

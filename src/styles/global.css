@@ -613,8 +613,11 @@ a.hero-button:hover {
   inset: 0;
   background: linear-gradient(180deg, transparent 0%, rgba(5, 5, 8, 0.85) 100%);
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-end;
+  align-content: flex-end;
   justify-content: center;
+  gap: var(--space-sm);
   padding: var(--space-md);
   opacity: 0;
   transition: opacity 0.3s var(--ease-out);
@@ -641,6 +644,18 @@ a.hero-button:hover {
 
 .project-link:hover {
   transform: translateY(-2px);
+}
+
+.project-link--secondary {
+  color: #0a0b10;
+  background: linear-gradient(135deg, var(--accent-2), #c4b5fd);
+  border: none;
+  box-shadow: 0 4px 20px rgba(167, 139, 250, 0.42);
+}
+
+.project-link--secondary:hover {
+  background: linear-gradient(135deg, #b8a5fc, #ddd6fe);
+  box-shadow: 0 6px 28px rgba(167, 139, 250, 0.52);
 }
 
 .tech-list {

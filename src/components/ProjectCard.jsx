@@ -1,4 +1,4 @@
-function ProjectCard({ title, description, tech, link, image }) {
+function ProjectCard({ title, description, tech, link, demo, image }) {
   return (
     <article className="card project-card surface-card">
       <div className="project-image-wrapper">
@@ -6,13 +6,23 @@ function ProjectCard({ title, description, tech, link, image }) {
 
         <div className="project-overlay">
           <a
+            className="project-link"
             href={link}
             target="_blank"
             rel="noopener noreferrer"
-            className="project-link"
           >
             View Project
           </a>
+          {demo && (
+            <a
+              className="project-link project-link--secondary"
+              href={demo}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live demo
+            </a>
+          )}
         </div>
       </div>
 
