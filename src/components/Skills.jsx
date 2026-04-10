@@ -4,15 +4,19 @@ import {
   FaReact,
   FaHtml5,
   FaCss3Alt,
+  FaNodeJs,
   FaGitAlt,
   FaCode,
 } from "react-icons/fa"
+import { SiExpress } from "react-icons/si"
 
 const skills = [
   { label: "JavaScript (ES6+)", Icon: FaJsSquare },
   { label: "React", Icon: FaReact },
   { label: "HTML5", Icon: FaHtml5 },
   { label: "CSS3", Icon: FaCss3Alt },
+  { label: "Node.js", Icon: FaNodeJs },
+  { label: "Express.js", Icon: SiExpress },
   { label: "Git / GitHub", Icon: FaGitAlt },
   { label: "APIs", Icon: FaCode },
 ]

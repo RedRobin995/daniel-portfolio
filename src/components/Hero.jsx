@@ -10,10 +10,10 @@ function Hero() {
           <span className="gradient-text">Daniel Jimenez</span>
         </h1>
 
-        <p className="hero-role">Front-End Developer</p>
+        <p className="hero-role">Full-stack Developer</p>
 
         <p>
-          Front-End Developer with 5 years of experience building dynamic,
+          Full-stack Developer with 3+ years of experience building dynamic,
           data-driven interfaces using JavaScript and React.
         </p>
 
