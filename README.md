@@ -47,4 +47,4 @@ Important settings:
 
 After a successful workflow run, the site will be available at:
 
-- `https://<your-username>.github.io/daniel-portfolio/`
+- `https://RedRobin995.github.io/daniel-portfolio/`
