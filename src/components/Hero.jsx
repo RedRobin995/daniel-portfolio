@@ -13,7 +13,7 @@ function Hero() {
         <p className="hero-role">Full-stack Developer</p>
 
         <p>
-          Full-stack Developer with 3+ years of experience building dynamic,
+          Full-stack Developer with over 4 years of experience building dynamic,
           data-driven interfaces using JavaScript and React.
         </p>
 
