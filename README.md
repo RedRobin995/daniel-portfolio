@@ -41,8 +41,8 @@ This repo is configured to deploy automatically on pushes to `main` using `.gith
 Important settings:
 
 - In GitHub: **Settings → Pages**
-  - **Source**: Deploy from a branch
-  - **Branch**: `gh-pages` / (root)
+  - **Source**: GitHub Actions
+  - Workflow: `Deploy to GitHub Pages` (`.github/workflows/deploy.yml`)
 - Vite `base` is set to `/daniel-portfolio/` in `vite.config.js` (required for project Pages)
 
 After a successful workflow run, the site will be available at:
