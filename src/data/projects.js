@@ -1,8 +1,19 @@
 import pokedexImage from "../assets/pokedex-preview.png"
 import mtgImage from "../assets/MTG preview img.png"
 import financeImage from "../assets/Finance App Preview.png"
+import enshinImage from "../assets/Enshin Karate Home Page.png"
 
 export const projects = [
+
+
+  {
+    title: "Enshin Karate Costa Rica Web page",
+    description:
+      "Responsive web for Enshin Karate Martial Arts School in Costa Rica",
+    tech: ["React", "HTML", "CSS", "JavaScript"],
+    link: "https://enshinkaratecr.com/",
+    image: enshinImage
+  },
   {
     title: "Pokédex App",
     description:
@@ -30,5 +41,6 @@ export const projects = [
     demo: "https://expo.dev/accounts/redrobin995/projects/finance-app2/builds/1945870e-d5e5-4778-8465-0377294ab9cd",
     image: financeImage
   },
+
 
 ]
