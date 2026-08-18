@@ -8,7 +8,7 @@ function About() {
         </header>
 
         <p>
-          I'm a front-end developer with over 5 years of experience building
+          I'm a full-stack developer with over 4 years of experience building
           production-ready interfaces.
         </p>
 

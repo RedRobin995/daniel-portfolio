@@ -1,7 +1,7 @@
 export const experience = [
   {
     company: "Movable Ink",
-    role: "Full Stack Developer / Senior Personalization Producer",
+    role: "Senior Front-End Developer / Senior Personalization Producer",
     period: "July 2025 – Present",
     description:
       "Develop dynamic front-end components using JavaScript, HTML, CSS, and React. Build personalized campaign experiences and collaborate with cross-functional teams in agile sprints."
